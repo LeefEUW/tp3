@@ -1,0 +1,26 @@
+body{
+    background-image: radial-gradient( circle at top center, #ccdae0,#edf2f4);
+}
+
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #ef233c;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    color: #2b2d42;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline dotted
+}
+article{
+    border: solid black 1px;
+}
+img{
+
+}

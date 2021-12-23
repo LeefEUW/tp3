@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="tp.css">
+        <title>Index</title>
+    </head>
+    <body>
+        <header>
+            <div id="bannieree">
+
+            </div>
+            <h1>Bienvenue sur le site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#">Gallerie</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form method="post" action="programme.php">
+                <fieldset>
+                    <legend>Formulaire</legend>
+                    <div>
+                        <label for="nom">Name:</label>
+                        <input type="text" name="nom" placeholder="Name" required maxlength="20" minlength="2" id="nom">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" required placeholder="email@email.com" name="mail" id="mail">
+                    </div>
+                    <div>
+                        <label for="textarea">Commentaire</label>
+                        <textarea name="com" placeholder="Voici un commentaire!"rows="10" cols="70"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox"/><label for="checkbox">Envoie d'une copie</label>
+                    </div>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset">
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="https://google.com"> oui </a></li>
+                <li><a href="https://google.com"> oui </a></li>
+                <li><a href="https://google.com"> oui </a></li>
+                <li><a href="https://google.com"> oui </a></li>
+            </ul>
+        </footer>
+</body>
