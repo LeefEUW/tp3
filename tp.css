@@ -1,7 +1,11 @@
 body{
     background-image: radial-gradient( circle at top center, #ccdae0,#edf2f4);
 }
-
+#bannieree{
+    background-color: #ef233c;
+    width: 800px;
+    height: 200px;
+    margin: auto;
 }
 header{
     text-align: center;
@@ -16,11 +20,43 @@ h3{
     color: #2b2d42;
     font-size: 30px;
     font-weight: bold;
-    text-decoration: underline dotted
+    text-decoration: underline dotted;
 }
 article{
     border: solid black 1px;
 }
-img{
-
+div{
+    text-align: center;
 }
+div img{
+    border: solid 2px black;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+a:visited{
+    color: grey;
+}
+a:link{
+    color: #d90429;
+}
+a:hover{
+    color: #2b2d42;
+}
+.Formumu{
+    text-align: left;
+}
+label {display:block;
+}
+textarea { display:block;
+}
+.etoile::before{
+    content: "*";
+    color: red;
+}
+
+
+
